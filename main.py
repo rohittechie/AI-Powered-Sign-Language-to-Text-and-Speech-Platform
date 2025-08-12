@@ -50,7 +50,7 @@ def speak_text(text):
 
 # GUI Setup
 root = tk.Tk()
-root.title("Sign Language to Speech Conversion")
+root.title("🖐️🤖🔊 AI-Powered Sign Language ➡️ Text & Speech Platform 🗣️✨")
 root.geometry("1300x650")  # Adjusted window size for additional button
 root.configure(bg="#2c2f33")  # Dark theme
 root.resizable(False, False)  # Disable resizing
@@ -62,7 +62,7 @@ current_sentence = StringVar(value="N/A")
 is_paused = StringVar(value="False")
 
 # Title
-title_label = Label(root, text="Sign Language to Speech Conversion", font=("Arial", 28, "bold"), fg="#ffffff", bg="#2c2f33")
+title_label = Label(root, text="🖐️🤖🔊 AI-Powered Sign Language ➡️ Text & Speech Platform 🗣️✨", font=("Arial", 28, "bold"), fg="#ffffff", bg="#2c2f33")
 title_label.grid(row=0, column=0, columnspan=2, pady=10)
 
 # Layout Frames
